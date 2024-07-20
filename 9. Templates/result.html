@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Garment Productivity Prediction - Result</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    .container {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .result-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .result-box {
+      padding: 20px;
+      border-radius: 5px;
+    }
+
+    h3 {
+      margin-bottom: 10px;
+    }
+
+    .result-value {
+      font-size: 24px;
+      font-weight: bold;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Garment Productivity Prediction - Result</h1>
+    <div class="result-container">
+      <div class="result-box">
+        <h3>Predicted Productivity:</h3>
+        <p class="result-value">{{ prediction }}</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
